@@ -19,5 +19,6 @@ public class average_marks_of_physics_using_for_each_loop
         }
         double avg=sum/n;
         System.out.println("The average marks is : "+ avg);
+        sc.close();
     }
 }
