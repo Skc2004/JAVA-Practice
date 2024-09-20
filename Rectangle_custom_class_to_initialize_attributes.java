@@ -25,5 +25,6 @@ public class Rectangle_custom_class_to_initialize_attributes
         obj.breadth=sc.nextDouble();
         obj.area();
         obj.perimeter();
+        sc.close();
     }
 }

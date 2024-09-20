@@ -7,5 +7,6 @@ public class Greetings
         System.out.println("May I know your name ? ");
         String name=sc.nextLine();
         System.out.println("Hello "+name+", have a great day !!!!!!");
+        
     }
 }

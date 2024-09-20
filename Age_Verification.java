@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class Age_Verification
 {
-    static int age;
-    static void input()
+    int age;
+    void input()
     {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter your age for Verification: ");
@@ -10,7 +10,7 @@ public class Age_Verification
         sc.close();
     }
     
-    static void check()
+    void check()
     {
         if(age>=18)
         {
@@ -24,7 +24,8 @@ public class Age_Verification
 
     public static void main(String args[])
     {
-        input();
-        check();
+        Age_Verification obj= new Age_Verification();
+        obj.input();
+        obj.check();
     }
 }
